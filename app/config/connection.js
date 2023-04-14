@@ -5,9 +5,9 @@ if(process.env.JAWSDB_URL) {
     connection = mysql.createConnection(process.env.JAWSDB_URL);
 } else {
     connection = mysql.createConnection({
-        host: "todosdb.clqhded84alw.ap-south-1.rds.amazonaws.com",
-        user: 'admin',
-        password: 'Abcd1234',
+        host: "localhost",
+        user: 'root',
+        password: '1234',
         database: 'todos_db'
     });
 }
