@@ -24,5 +24,5 @@ app.get('*', (req, res) => res.redirect('/'));
 
 // Listen
 app.listen(PORT, () => {
-    console.log(`--> Server running on http://65.2.33.181:${PORT}/`);
+    console.log(`--> Server running on http://localhost:${PORT}/`);
 });
